@@ -1,4 +1,4 @@
-FROM alpine:latest
+FROM alpine:3.18.3
 WORKDIR /app
 COPY . /app
 RUN apk add --update --no-cache python2 py2-pip py2-gevent \
